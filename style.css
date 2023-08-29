@@ -1,0 +1,252 @@
+.container{
+    width:100%;
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    color: black;
+    font-family: "Helvetica",serif;
+}
+
+.container h1{
+    font-size: 70px;
+    margin-top: 50px;
+    font-weight: bolder;
+}
+
+.container p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.container button{
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    padding: 15px 20px;
+    background-color: brown;
+    border-radius: 10px;
+    border: none;
+}
+
+.quiz{
+    height: 100%;
+    width: 100%;
+    position : absolute;
+    color: black;
+    font-family: "Helvetica",serif;
+    padding-top:20px;
+    padding-bottom:100px;
+}
+
+.quiz h1{
+    margin-top:15px;
+    margin-left: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.quiz p{
+    margin-top:15px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.email_title{
+    font-size: 20px;
+    margin-top:10px;
+    margin-left: 12px;
+}
+
+.email{
+    position: relative;
+    font-size: 20px;
+    margin-top:15px;
+}
+
+.email input{
+    font-family: "Helvetica",serif;
+    font-size: 20px;
+    color:black;
+    padding-left: 8px;
+    border-style: groove;
+    border-bottom:grey 2px solid;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    background-color: transparent;
+}
+
+.email button{
+    font-size: 15px;
+    color: black;
+    border-radius: 5px;
+    border: none;
+}
+
+.set{
+    /*position:relative;*/
+    display: flex;
+    margin-top:20px;
+    margin-left: 12px;
+    margin-right: 12px;
+    background-color: rgba(230, 1, 0, 0.1);
+    border-bottom:grey 2px solid;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+}
+
+.right{
+    width:18%;
+
+}
+
+.right button{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    width: 50%;
+    height: 40%
+}
+
+
+.QA{
+    padding-right: 20px;
+    border-right: 1px solid black;
+    width:80%;
+    margin-left: 1%;
+    font-size: 25px;
+    color:maroon;
+    text-align: left;
+    font-family: "Helvetica",serif;
+    /*background-color:blue;*/
+
+}
+
+.QA h1{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.QA p{
+    font-weight: normal;
+    font-size: 20px;
+    color:black;
+
+}
+
+
+/*.question{*/
+/*    width:80%;*/
+/*    margin-left: 1%;*/
+/*    font-size: 25px;*/
+/*    color:maroon;*/
+/*    text-align: left;*/
+/*}*/
+
+/*.question h1{*/
+/*    font-size: 25px;*/
+/*    background-color: pink;*/
+/*}*/
+
+/*.answer{*/
+/*    width:80%;*/
+/*    margin-left: 1%;*/
+/*    font-size: 25px;*/
+/*    color:maroon;*/
+/*    text-align: left;*/
+/*}*/
+
+/*.answer h1{*/
+/*    font-size: 25px;*/
+/*    background-color: pink;*/
+/*}*/
+
+.input_info{
+    width:80%;
+    margin-left:10%;
+    color: black;
+    font-family: "Helvetica",serif;
+    text-align: center;
+}
+
+.input_container{
+    margin:auto;
+    width:90%;
+    position: relative;
+    text-align: center;
+}
+
+.input_container1{
+    width:90%;
+    margin:auto;
+    text-align: left;
+}
+
+.input_container2{
+    font-size:20px;
+    width:300px;
+}
+
+.input_container3{
+    font-size:20px;
+    width:90%;
+}
+
+.input_label1{
+    font-size: 25px;
+    color:black;
+    text-align: left;
+}
+
+.large_input_box{
+    vertical-align: top;
+    width:100%;
+    height:300px;
+    font-size: 20px;
+    background-color: transparent;
+    padding-left: 8px;
+    border-radius: 8px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    margin-right:20px;
+    padding: 2px;
+    background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+.navbar button{
+
+    color: rgba(230, 1, 0, 0.5);;
+    display: inline-block;
+    position: relative;
+    font-family: "Helvetica",serif;
+    font-weight: bold;
+    font-size: 20px;
+    background: transparent;
+    border: none;
+}
+
+.navbar button::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: maroon;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar button:hover::after{
+    width: 100%;
+}
